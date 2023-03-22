@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.6;
@@ -51,7 +51,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
+.font-change{
+  font-family: 'Montserrat', sans-serif;
+ 
+}
 
 
 
@@ -312,7 +315,7 @@ color: white;
 }
 @media screen and (max-width: 992px) {
   #fh5co-header #navbar li a {
-    margin-top: 30px;
+    margin-top: 20px;
     padding-left: 20px !important;
     padding-right: 10px !important;
   }
@@ -1002,6 +1005,7 @@ margin-right: 10px;
 }
 
 .fh5co-services h2{
+  text-align: left;
   color: #277BC0;
 }
 .fh5co-services ul {
@@ -1221,7 +1225,7 @@ margin-right: 10px;
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   margin-bottom: 0px;
   clear: both;
 }
@@ -1232,7 +1236,7 @@ margin-right: 10px;
   color: #fff;
   position: relative;
   display: block;
-  padding-bottom: 10px;
+ 
   line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
@@ -1696,7 +1700,7 @@ margin-right: 10px;
 }
 .owl-carousel .owl-controls .owl-dot:hover span, .owl-carousel .owl-controls .owl-dot:focus span {
   background: #4d4d4d;
-}-
+}
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent
   border: 2px solid #d73930;
