@@ -52,6 +52,137 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
+
+#fh5co-about ul li{
+  font-size: 17px;
+  text-align: left;
+}
+
+/* 
+---------------------------------------------
+Infos Style
+--------------------------------------------- 
+*/
+
+.infos {
+ background-color: #277BC0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 120px 0px;
+ margin-bottom: 40px;
+}
+.infos h2{
+  color: black;
+}
+
+.infos .main-content {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 23px;
+}
+
+.infos .main-content .left-image {
+
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.infos .main-content .left-image img {
+  display: none;
+}
+
+.infos .main-content .section-heading {
+  padding: 60px 60px 30px 60px;
+}
+
+.infos .main-content .skills {
+  padding: 0px 60px;
+}
+
+.infos .main-content .skill-slide {
+  position: relative;
+  width: 100%;
+  background-color: #f9ebff;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.infos .main-content .skill-slide .fill {
+  height: 10px;
+  background-color: #f3a514;
+  border-radius: 5px;
+}
+
+.infos .main-content .skill-slide h6 {
+  position: absolute;
+  color: #f3a514;
+  font-size: 15px;
+  left: 0;
+  top: -25px;
+}
+
+.infos .main-content .skill-slide span {
+  position: absolute;
+  color: #f3a514;
+  font-size: 15px;
+  font-weight: 700;
+  top: -25px;
+}
+
+.infos .main-content .marketing .fill {
+  width: 90%;
+}
+
+.infos .main-content .digital .fill {
+  width: 80%;
+}
+
+.infos .main-content .media .fill {
+  width: 95%;
+}
+
+.infos .main-content .marketing span {
+  right: 10%;
+}
+
+.infos .main-content .digital span {
+  right: 20%;
+}
+
+.infos .main-content .media span {
+  right: 5%;
+}
+
+.infos .main-content p.more-info {
+  margin-top: -15px;
+  padding: 0px 60px 60px 60px;
+}
+
+#infos p {
+  font-size: 17px;
+}
+
+#infos ul {
+  font-size: 17px;
+  text-align: left;
+  align-items: center
+ ;
+}
+
+.line-dec {
+margin-top: 20px;
+margin-bottom: 25px;
+  width: 200px;
+  height: 2px;
+  background-color: #277BC0;
+}
+
 #whitetext{
   color: white;
 }
@@ -286,6 +417,15 @@ color: white;
   #fh5co-header .navbar-brand {
     padding-left: 10px !important;
     padding-right: 0 !important;
+    display: none;
+
+  }
+
+  #fh5co-header .only-mobile{
+    display: block;
+    color: white;
+  margin-top: 20px;
+  margin-left: 25px;
   }
 }
 #fh5co-header.navbar-fixed-top {
@@ -386,7 +526,7 @@ img {
 }
 
 #fh5co-home {
-  background-color: transparent;
+  background-color: white;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -502,6 +642,13 @@ margin-bottom: 20px;
 #fh5co-about p {
 font-size: 17px;
 }
+
+#fh5co-about li {
+  font-size: 17px;
+  text-align: left;
+padding-right: 20px;
+margin-right: 10px;
+  }
 /* #fh5co-about  {
   font-size: 17px;
   } */
@@ -736,6 +883,7 @@ font-size: 17px;
   width: 100%;
   float: left;
 }
+
 @media screen and (max-width: 992px) {
   .getting-started .call-to-action {
     float: none !important;
@@ -772,6 +920,7 @@ font-size: 17px;
 }
 .getting-started .call-to-action a.sign-up:hover {
   background: #fff;
+  color: #277BC0;
 }
 
 .fh5co-pricing {
@@ -855,6 +1004,15 @@ font-size: 17px;
 .fh5co-services h2{
   color: #277BC0;
 }
+.fh5co-services ul {
+  color: #277BC0;
+  text-align: left;
+  align-items: center;
+}
+.fh5co-services ul li{
+  color: #277BC0;
+  text-align: left;
+}
 
 .fh5co-services .box-services i {
   position: absolute;
@@ -864,7 +1022,9 @@ font-size: 17px;
   color: #277BC0;
 }
 .fh5co-services .fh5co-post {
-  padding-left: 75px;
+
+  text-align: center;
+  align-items: center;
 }
 .fh5co-services .fh5co-post h3 {
   font-size: 18px;
